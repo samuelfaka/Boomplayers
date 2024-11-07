@@ -1,0 +1,133 @@
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    gap: 20px;
+    background-image: linear-gradient(to bottom, rgb(195, 238, 130), rgb(0, 60, 255));
+    width: 30vw;
+    border-radius: 50px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+.now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.text{
+    font-size: 12px;
+    font-weight: bold;
+}
+.text-2{
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, yellow, yellow);
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    height: 6vh;
+    width: 20vh;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.con{
+    font-size: 13px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.image{
+    height: 25vh;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.bg{
+    background-image: linear-gradient(
+     0deg,
+     rgba(195, 126, 34, 1) 0%,
+     rgba(234, 253, 45, 0.5) 100%
+    );
+    height: 100vh;
+}
+.bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.artist{
+    font-size: 17px;
+    color: ghostwhite;
+    font-weight: bold;
+    font-style: oblique;
+}
+.tex{
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.now{
+    color: white;
+}
+.backward{
+    background-image: linear-gradient(to bottom, yellow, yellow);
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: green;
+}
+.forward{
+    background-image: linear-gradient(to bottom, yellow, yellow);
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: green;
+}
+.control-play{
+    background-image: linear-gradient(to bottom, yellow, yellow);
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 7vh;
+    border-radius: 100px;
+    border: 2px solid white;
+    color: green;
+}
+@media screen and (max-width:767px) {
+    .player{
+        width: 100vw;
+        height: 100vh;
+        gap: 40px;
+        border-radius: 0;
+    }
+}
