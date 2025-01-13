@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Players from './components/Players';
 import Music from './components/Music';
+import Player from './components/Player';
 
 
 
@@ -98,7 +98,7 @@ const App = () => {
   
     <div className='bg'>
       <Music />
-      <Players 
+      <Player 
         currentSongIndex={currentSongIndex}
         setCurrentSongIndex={setCurrentSongIndex}
         nextSongIndex={nextSongIndex}

@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import "./player.css";
 import Details from './Details';
 import Controls from './Controls';
-import { Link } from 'react-router-dom';
 
 const Player = (props) => {
     const audioEl = useRef(null);
