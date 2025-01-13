@@ -2,7 +2,7 @@ import React from 'react'
 
 const Music = () => {
   return (
-    <div></div>
+    <div className='red-'></div>
   )
 }
 
